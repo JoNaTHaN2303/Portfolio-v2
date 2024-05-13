@@ -12,7 +12,7 @@ function Home() {
               Hi There! 
             </h1>
             <h1 className="heading-name">
-              I'M
+              I'm
               <strong className="main-name"> De Catelle Jonathan</strong>
             </h1>
             <div className="heading-type">
