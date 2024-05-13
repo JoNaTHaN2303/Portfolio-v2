@@ -1,7 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Introduction from "./Introduction";
+import { Container, Row } from "react-bootstrap";
 import Type from "./Type";
 
 function Home() {
@@ -20,12 +18,15 @@ function Home() {
             <div className="heading-type">
               <Type />
             </div>
-            <div className="home-about-section">
-              <p className="home-about-body">
-                A 22-year-old computer science student. 
-                My passion lies in exploring cutting-edge developments in the IT world. 
-                With a background in Mobile and Enterprise Development, 
-                I combine technical skills with a problem-solving mindset.
+            <div className="heading-contact">
+              <h1>
+                Contact Me:
+              </h1>
+              <p className="heading-contact-text">
+                jonathandecatelle@gmail.com
+              </p>
+              <p className="heading-contact-text">
+                +32 471 03 00 03
               </p>
             </div>
           </Row>

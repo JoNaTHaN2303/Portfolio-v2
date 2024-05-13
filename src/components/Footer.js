@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineMail,
@@ -18,7 +18,7 @@ function Footer() {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <AiFillGithub />
+              <AiFillGithub size={25}/>
             </a>
           </li>
           <li className="social-icons">
@@ -28,7 +28,7 @@ function Footer() {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <AiOutlineLinkedin />
+              <AiOutlineLinkedin size={25}/>
             </a>
           </li>
           <li className="social-icons">
@@ -38,7 +38,7 @@ function Footer() {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <AiOutlineMail />
+              <AiOutlineMail size={25}/>
             </a>
           </li>
         </ul>
