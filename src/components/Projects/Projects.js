@@ -1,8 +1,10 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+
 import ProjectCard from "./ProjectCards";
+import React from "react";
 import carteblanche from "../../Assets/Projects/carteblanche.PNG";
 import cocktails from "../../Assets/Projects/cocktails.PNG";
+import hypeodream from "../../Assets/Projects/hypeodream.jpg"
 
 function Projects() {
   return (
@@ -31,6 +33,15 @@ function Projects() {
               description="I created this website for a friend who recently launched his own business. He desired a website that captivated people's attention while encapsulating the essence of his enterprise's theme."
               ghLink="https://github.com/JoNaTHaN2303/carteblanche"
               demoLink="https://mecarteblanche.be/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hypeodream}
+              title="Hype-O-Dream"
+              description="As an intern, I further expanded the mobile application for the Hype-O-Dream festival in Waregem for the 2023 edition."
+              ghLink="https://play.google.com/store/apps/details?id=com.encoregroupvzw.hypeodream2019Prd"
+              demoLink="https://play.google.com/store/apps/details?id=com.encoregroupvzw.hypeodream2019Prd"
             />
           </Col>
         </Row>
